@@ -1,0 +1,68 @@
+[
+  {
+    "schemaName": "public",
+    "tableName": "comment",
+    "predictions": [
+      {
+        "input": "public comment content",
+        "column": "content",
+        "shape": "POST_COMMENT",
+        "confidence": 1,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      },
+      {
+        "input": "public comment written_at",
+        "column": "written_at",
+        "shape": "DATE",
+        "confidence": 0.9812263250350952,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      }
+    ]
+  },
+  {
+    "schemaName": "public",
+    "tableName": "post",
+    "predictions": [
+      {
+        "input": "public post content",
+        "column": "content",
+        "shape": "POST_BODY",
+        "confidence": 0.7429391145706177,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      },
+      {
+        "input": "public post title",
+        "column": "title",
+        "shape": "POST_TITLE",
+        "confidence": 0.5458157062530518,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      }
+    ]
+  },
+  {
+    "schemaName": "public",
+    "tableName": "user",
+    "predictions": [
+      {
+        "input": "public user email",
+        "column": "email",
+        "shape": "EMAIL",
+        "confidence": 0.99404376745224,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      },
+      {
+        "input": "public user username",
+        "column": "username",
+        "shape": "USERNAME",
+        "confidence": 0.9716823697090149,
+        "context": "GENERAL",
+        "confidenceContext": 0
+      }
+    ]
+  }
+]

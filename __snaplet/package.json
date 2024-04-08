@@ -1,0 +1,13 @@
+{
+  "name": "__snaplet",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./config": {
+      "types": "./defineConfig.d.ts"
+    }
+  }
+}
